@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Escolar - Calendario</title>
+    <style>
+        /* Estilos básicos para la barra de navegación */
+        .nav {
+            background-color: #0047ab;
+            padding: 10px 0;
+        }
+        .nav-list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-item .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-item .nav-link:hover {
+            text-decoration: underline;
+        }
+        /* Estilos para el calendario */
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .calendar-day {
+            padding: 15px;
+            text-align: center;
+            background-color: #e6f7ff;
+            border-radius: 5px;
+            border: 1px solid #d3d3d3;
+        }
+        .calendar-event {
+            background-color: #cce6ff;
+            font-weight: bold;
+            color: #0047ab;
+        }
+        .event-text {
+            font-size: 0.9rem;
+        }
+        /* Estilos para el formulario */
+        .contact-form {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .form-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-input, .form-textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .form-textarea {
+            resize: vertical;
+        }
+        .form-button {
+            background-color: #0047ab;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .form-button:hover {
+            background-color: #003f8e;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado principal -->
+<header class="header">
+    <h1 class="header-title">Calendario Escolar</h1>
+    <p class="header-subtitle">Consulta las actividades y eventos programados</p>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="calendario_escolar.html" class="nav-link">Calendario Escolar</a></li>
+            <li class="nav-item"><a href="consulta_las_actividades_y_eventos_programados.html" class="nav-link">Consulta las Actividades</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Sección del calendario -->
+<section class="calendar-section">
+    <h2 class="section-title">Calendario de Diciembre 2024</h2>
+    <p class="section-description">A continuación, puedes ver las actividades programadas para este mes:</p>
+    <div class="calendar">
+        <!-- Los días del calendario -->
+        <div class="calendar-day">1</div>
+        <div class="calendar-day">2</div>
+        <div class="calendar-day">3</div>
+        <div class="calendar-day">4</div>
+        <div class="calendar-day">5</div>
+        <div class="calendar-day">6</div>
+        <div class="calendar-day">7</div>
+        <div class="calendar-day">8</div>
+        <div class="calendar-day calendar-event">10<br><span class="event-text">Festival de Ciencia</span></div>
+        <div class="calendar-day">11</div>
+        <div class="calendar-day">12</div>
+        <div class="calendar-day">13</div>
+        <div class="calendar-day">14</div>
+        <div class="calendar-day">15</div>
+        <div class="calendar-day calendar-event">18<br><span class="event-text">Inicio Exámenes</span></div>
+        <div class="calendar-day calendar-event">19<br><span 
