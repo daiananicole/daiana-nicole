@@ -1,0 +1,148 @@
+/* Establecer la tipografía para todo el sitio */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;  /* Tipografía pixelart para el cuerpo */
+    margin: 0;
+    padding: 0;
+    background-color: #f1f0f6;  /* Fondo suave lila */
+    color: #333;
+}
+
+/* Estilos generales del header */
+.header {
+    text-align: center;
+    background-color: #8e44ad;  /* Lila más oscuro */
+    color: white;
+    padding: 40px 20px;
+}
+
+.header-title {
+    font-family: 'Roboto', sans-serif;  /* Tipografía Roboto para el título */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    font-family: 'Press Start 2P', cursive;  /* Mantener la tipografía pixelart para subtítulo */
+    font-size: 1.2rem;
+}
+
+/* Títulos de las secciones */
+.section-title {
+    font-family: 'Roboto', sans-serif;  /* Tipografía Roboto para los títulos */
+    font-size: 2rem;
+    color: #4a148c;  /* Color complementario para los títulos */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-description {
+    font-family: 'Press Start 2P', cursive;  /* Subtítulos con tipografía pixelart */
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Estilos generales del formulario y footer mantienen la tipografía principal */
+.contact-form {
+    background-color: #f2e3ff;  /* Fondo suave lila */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Centrar el formulario */
+    margin: 30px auto;
+}
+
+.footer-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Otros estilos del sitio mantienen la unidad */
+.nav {
+    background-color: #9b59b6;  /* Lila */
+    padding: 15px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.main-content {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #d6a7e3; /* Lila claro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Calendario y eventos */
+.calendar-section, .events-section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calendar-day {
+    padding: 15px;
+    text-align: center;
+    background-color: #f4e1f2;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+.calendar-event {
+    background-color: #c2a2d9;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+.event-text {
+    font-size: 0.9rem;
+}
+
+/* Formulario de contacto */
+.form-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
